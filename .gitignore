@@ -1,0 +1,22 @@
+# ignore all bin directories
+bin/
+
+# ignore all target directories
+build/
+target/
+out/
+
+# ignore Eclipse files
+.project
+.classpath
+.settings/
+
+# ignore IDEA files
+*.iml
+.idea/
+
+# ignore project files
+.git/
+
+# ignore gradle files
+.gradle/
