@@ -28,7 +28,7 @@ public class ProdutoService {
         	listaCatalogo.add(catalogo);
         });
         return listaCatalogo.stream()
-        	.sorted((c1, c2) -> c1.getMediaNotas().compareTo(c2.getMediaNotas())).limit(10)
+        	.sorted((c1, c2) -> c2.getMediaNotas().compareTo(c1.getMediaNotas())).limit(10)
         	.collect(Collectors.toList());
     }
 }
